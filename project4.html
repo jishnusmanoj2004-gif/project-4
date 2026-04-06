@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Survey form</h1>
+    <h3>Thank you taking this survey</h3>
+    <h3>Name:</h3>
+    <form>
+        <input type="text" placeholder="enter your name">
+    </form>
+    <h3>Email:</h3>
+    <form>
+        <input type="email" placeholder="enetr your email">
+    </form>
+    <h3>age(optional):</h3>
+    <form>
+        <input type="age" placeholder="enter your age">
+    </form>
+    <h3>Which option describes the current situation?</h3>
+    <select name="situation" id="situation">
+        <option value="Select any off them">choose one option</option>
+        <option value="Good"> Good</option>
+        <option value="Very good"> Very good </option>
+        <option value="Very very good"> Very very good</option>
+    </select>
+    <h3>Was the session interactive?</h3>
+    <form>
+        <input type="radio" id="yes" value="yes" name=yes>
+        <label for="yes">yes</label>
+        <br>
+        <br>
+        <input type="radio" id="NO" no="no" name=no>
+        <label for="no">no</label>
+    </form>
+    <h3>What would you like to see improved?</h3>
+    <form>
+        <input type="radio" id="Student recap" value="Student recap" name=Student>
+        <label for="Student recap">Student recap</label>
+        <br>
+        <br>
+        <input type="radio" id="More project" no="More project" name=More project>
+        <label for="More project">More project</label>
+        <br>
+        <br>
+        <input type="radio" id="lesser homework" no="lesser homework" name=lesser homework>
+        <label for="lesser homework ">lesser homework</label>
+        <br>
+        <br>
+        <input type="radio" id="Live Q/A" no="Live Q/A" name=Live Q/A>
+        <label for="Live Q/A">Live Q/A</label>
+        <br>
+        <br>
+        <input type="radio" id="Use collabrate tools" no="Use collabrate tools" name=Use collabrate tools>
+        <label for="Use collabrate tools">Use collabrate tools</label>
+    </form>
+    <h3>Rxtra comments or Any suggestions?</h3>
+        <textarea cols="18" rows="6"></textarea>
+    <button>submit</button>
+</body>
+</html>
